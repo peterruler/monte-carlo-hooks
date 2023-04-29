@@ -1,0 +1,80 @@
+@media screen {
+
+    div {
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        height: 100%;
+    }
+
+    body {
+        margin: 20px 0 0 0;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        position: relative;
+        width: 50vw;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .output {
+        width: 100%;
+        text-align: center;
+    }
+
+    #myCanvas {
+        position: relative;
+        margin-left: -250px;
+        left: 50%;
+    }
+
+    .loader {
+        position: relative;
+        width: 66px;
+        height:150px;
+        margin: calc(-1*270px/2) auto auto auto;
+        display: block;
+    }
+
+    .btn {
+        margin:10px 0;
+        box-shadow: inset 0px 1px 0px 0px #ffffff;
+        background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+        background-color: #ffffff;
+        border-radius: 6px;
+        border: 1px solid #dcdcdc;
+        display: inline-block;
+        cursor: pointer;
+        color: #666666;
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 6px 24px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #ffffff;
+    }
+
+    .btn:hover {
+        background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+        background-color: #f6f6f6;
+    }
+
+    .btn:active {
+        position: relative;
+        top: 1px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
